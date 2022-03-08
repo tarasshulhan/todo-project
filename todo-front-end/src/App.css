@@ -1,0 +1,212 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #1c7ea1, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.lists-outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lists-container {
+  width: 80%;
+  border: #8cb5eb solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #8cb5eb75;
+  border-radius: 10% / 50%;
+}
+
+.list-view {
+  background-color: #8cb5eb95;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin: 1%;
+  width: 80%;
+  border-radius: 30px;
+}
+
+.list-link {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.list-title {
+  white-space: nowrap;
+  padding-left: 10%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.list-buttons {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.task-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #8cb5eb85;
+  border-radius: 30px;
+  margin-bottom: 1%;
+}
+
+.task-key {
+  border-radius: 30px;
+  width: 80%;
+  background-color: #8cb5eb85;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 6vh;
+  margin-bottom: 1%;
+}
+
+.task-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border-radius: 30px;
+  height: 6vh;
+}
+.task {
+  border-radius: 30px;
+  width: 100%;
+  background-color: #8cb5eb85;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 6vh;
+}
+.add-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.add-list-form {
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #8cb5eb75;
+  border-radius: 10% / 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.add-list-input {
+  background-color: #8cb5eb85;
+  border: #8cb5eb solid 1px;
+  border-radius: 30px;
+  height: 2vh;
+}
+.add-list-header {
+  padding-bottom: 5%;
+  flex-direction: row;
+  justify-content: center;
+}
+.add-list-body {
+  padding-bottom: 5%;
+}
+.add-list-footer {
+  display: flex;
+  flex-direction: row;
+}
+.completed {
+  text-decoration: line-through;
+}
+.form-group {
+  padding-bottom: 5%;
+}
+.btn {
+  background-color: #8cb5eb85;
+  color: #212121;
+  border: #8cb5eb solid 1px;
+  height: 5vh;
+  text-decoration: none;
+  width: 5%;
+  border-radius: 30px;
+  width: 100px;
+}
+
+button {
+  background-color: #8cb5eb85;
+  color: #212121;
+  border: #8cb5eb solid 1px;
+  height: 5vh;
+  text-decoration: none;
+  border-radius: 30px;
+  width: 100px;
+}
+
+h1,
+h2,
+p {
+  color: #212121;
+  margin: 1%;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: #212121;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #212121;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #212121;
+}
+
+a:active {
+  text-decoration: none;
+}
